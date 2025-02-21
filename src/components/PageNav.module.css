@@ -11,6 +11,10 @@
   padding: 10px;
 }
 
+.nav :global(.active) {
+  background-color: aquamarine;
+}
+
 .nav ul li {
   color: #fff;
   padding: 10px;
