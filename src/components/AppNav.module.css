@@ -1,0 +1,7 @@
+.nav {
+  background-color: #e38383;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
