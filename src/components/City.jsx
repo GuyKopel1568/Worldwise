@@ -6,12 +6,14 @@ import Spinner from "./Spinner";
 import BackButton from "./BackButton";
 
 const flagEmojiToPNG = flag => {
-  if (!flag) return null;
-  const countryCode = [...flag]
-    .map(char => String.fromCodePoint(char.codePointAt(0) - 127397))
-    .join("")
-    .toLowerCase();
-  return <img src={`https://flagcdn.com/w40/${countryCode}.png`} alt="flag" />;
+  if (flag === undefined) return;
+
+  var countryCode = Array.from(flag, codeUnit => codeUnit.codePointAt())
+    .map(char => String.fromCharCode(char - 127397).toLowerCase())
+    .join("");
+  return (
+    <img src={`https://flagcdn.com/24x18/${countryCode}.png`} alt="flag" />
+  );
 };
 
 const formatDate = date =>

@@ -39,7 +39,7 @@ function CitiesProvider({ children }) {
   }
 
   return (
-    <CitiesContext.Provider value={{ cities, isLoading, currentCity, getCity }}>
+    <CitiesContext.Provider value={{ getCity, cities, isLoading, currentCity }}>
       {children}
     </CitiesContext.Provider>
   );
