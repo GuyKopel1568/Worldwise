@@ -14,7 +14,7 @@ const flagEmojiToPNG = flag => {
 };
 
 function CountryList() {
-  const { cities, isLoading } = useCities;
+  const { cities, isLoading } = useCities();
   if (isLoading) return <Spinner />;
   if (!cities.length) return <Message message="No countries to display" />;
 
