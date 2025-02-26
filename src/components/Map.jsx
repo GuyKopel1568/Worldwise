@@ -1,6 +1,13 @@
 import { useNavigate, useSearchParams } from "react-router-dom";
 import styles from "./Map.module.css";
-import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  useMap,
+  useMapEvent
+} from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContext";
@@ -18,7 +25,6 @@ const flagEmojiToPNG = flag => {
 };
 
 function Map() {
-  const navigate = useNavigate();
   const { cities } = useCities();
   const [mapPosition, setMapPosition] = useState([
     40.46635901755316,
@@ -63,6 +69,7 @@ function Map() {
           </Marker>
         )}
         <ChangeCenter position={mapPosition} />
+        <DetectClick />
       </MapContainer>
     </div>
   );
@@ -72,6 +79,15 @@ function ChangeCenter({ position }) {
   const map = useMap();
   map.setView(position);
   return null;
+}
+
+function DetectClick() {
+  const navigate = useNavigate();
+  useMapEvent({
+    click: e => {
+      navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`);
+    }
+  });
 }
 
 export default Map;
