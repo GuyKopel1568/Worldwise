@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContext";
-import { useNavigate, useSearchParams } from "react-router-dom";
-import styles from "./Map.module.css";
+import { useNavigate } from "react-router-dom";
 import { useGeolocation } from "../hooks/useGeolocation";
+import { useUrlPosition } from "../hooks/useUrlPosition";
+import styles from "./Map.module.css";
 import {
   MapContainer,
   TileLayer,
@@ -13,17 +14,7 @@ import {
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Button from "./Button";
-import { useUrlPosition } from "../hooks/useUrlPosition";
-
-const flagEmojiToPNG = flag => {
-  if (flag === undefined) return;
-  var countryCode = Array.from(flag, codeUnit => codeUnit.codePointAt())
-    .map(char => String.fromCharCode(char - 127397).toLowerCase())
-    .join("");
-  return (
-    <img src={`https://flagcdn.com/24x18/${countryCode}.png`} alt="flag" />
-  );
-};
+import Emoji from "./Emoji";
 
 function Map() {
   const { cities } = useCities();
@@ -78,7 +69,7 @@ function Map() {
           >
             <Popup>
               {city.cityName}
-              {flagEmojiToPNG(city.emoji)}
+              <Emoji emoji={city.emoji} />
             </Popup>
           </Marker>
         )}
