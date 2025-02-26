@@ -35,6 +35,198 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Assiut",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2025-02-26T17:26:24.183Z",
+      "notes": "TEST",
+      "position": {
+        "lat": "27.078691552927534",
+        "lng": "31.70616609229308"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Tamar Regional Council",
+      "country": "Israel",
+      "emoji": "🇮🇱",
+      "date": "2025-02-26T17:27:11.209Z",
+      "notes": "my city",
+      "position": {
+        "lat": "31.353636941500987",
+        "lng": "35.309906831418346"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Tura",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2025-02-26T17:27:54.215Z",
+      "notes": "test",
+      "position": {
+        "lat": "64.46246301464112",
+        "lng": "96.18495506426264"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Dekese",
+      "country": "Congo (the Democratic Republic of the)",
+      "emoji": "🇨🇩",
+      "date": "2025-02-26T17:30:50.020Z",
+      "notes": "ttt",
+      "position": {
+        "lat": "-3.417207580156306",
+        "lng": "21.79596467166441"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Novo Progresso",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2025-02-26T17:30:58.491Z",
+      "notes": "fff",
+      "position": {
+        "lat": "-8.626498705490404",
+        "lng": "-55.3749302202825"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Lussat",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2025-02-26T17:32:07.333Z",
+      "notes": "dddd",
+      "position": {
+        "lat": "46.162865868913805",
+        "lng": "2.395463407225216"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Farnsfield",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2025-02-26T17:32:19.649Z",
+      "notes": "dddd",
+      "position": {
+        "lat": "53.093168420151414",
+        "lng": "-1.0548038668711393"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Hahnheim",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2025-02-26T17:34:21.799Z",
+      "notes": "ddd",
+      "position": {
+        "lat": "49.86150956129329",
+        "lng": "8.240376717340668"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Lyambir’",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2025-02-26T17:34:21.799Z",
+      "notes": "dddddd",
+      "position": {
+        "lat": "54.327073757483",
+        "lng": "45.2425693944543"
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "Cunfin",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2025-02-26T17:35:32.412Z",
+      "notes": "ddd",
+      "position": {
+        "lat": "48.04433155809019",
+        "lng": "4.658079030641332"
+      },
+      "id": 98443207
+    },
+    {
+      "cityName": "Yavoriv",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2025-02-26T17:35:55.720Z",
+      "notes": "eeee",
+      "position": {
+        "lat": "49.72155416355514",
+        "lng": "23.094428114809823"
+      },
+      "id": 98443208
+    },
+    {
+      "cityName": "Inzhavino",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2025-02-26T17:36:01.172Z",
+      "notes": "wewe",
+      "position": {
+        "lat": "52.15798560722517",
+        "lng": "42.65015786095387"
+      },
+      "id": 98443209
+    },
+    {
+      "cityName": "Yrghyz",
+      "country": "Kazakhstan",
+      "emoji": "🇰🇿",
+      "date": "2025-02-26T17:36:05.028Z",
+      "notes": "sadasd",
+      "position": {
+        "lat": "48.17550455149993",
+        "lng": "63.150701522531236"
+      },
+      "id": 98443210
+    },
+    {
+      "cityName": "Tavildara",
+      "country": "Tajikistan",
+      "emoji": "🇹🇯",
+      "date": "2025-02-26T17:36:09.597Z",
+      "notes": "sadasd",
+      "position": {
+        "lat": "38.8316074199127",
+        "lng": "71.82920784323218"
+      },
+      "id": 98443211
+    },
+    {
+      "cityName": "Chishtian",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "date": "2025-02-26T17:36:15.877Z",
+      "notes": "asdasd",
+      "position": {
+        "lat": "29.85134750279212",
+        "lng": "72.6856829393884"
+      },
+      "id": 98443212
+    },
+    {
+      "cityName": "Qŭnghirot",
+      "country": "Uzbekistan",
+      "emoji": "🇺🇿",
+      "date": "2025-02-26T17:36:49.883Z",
+      "notes": "waqewqae",
+      "position": {
+        "lat": "43.65816986951334",
+        "lng": "57.65643242931358"
+      },
+      "id": 98443213
     }
   ]
 }
