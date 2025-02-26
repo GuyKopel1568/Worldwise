@@ -13,6 +13,7 @@ import {
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Button from "./Button";
+import { useUrlPosition } from "../hooks/useUrlPosition";
 
 const flagEmojiToPNG = flag => {
   if (flag === undefined) return;
@@ -26,7 +27,6 @@ const flagEmojiToPNG = flag => {
 
 function Map() {
   const { cities } = useCities();
-  const [searchParams] = useSearchParams();
   const [mapPosition, setMapPosition] = useState([
     40.46635901755316,
     -3.7133789062500004
@@ -36,9 +36,7 @@ function Map() {
     position: geoLocationPosition,
     getPosition
   } = useGeolocation();
-
-  const mapLat = searchParams.get("lat");
-  const mapLng = searchParams.get("lng");
+  const [mapLat, mapLng] = useUrlPosition();
 
   useEffect(
     function() {
