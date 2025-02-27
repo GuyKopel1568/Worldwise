@@ -37,16 +37,16 @@
       "id": 98443197
     },
     {
-      "cityName": "Tamar Regional Council",
+      "cityName": "Rishon LeTsiyyon",
       "country": "Israel",
       "emoji": "🇮🇱",
-      "date": "2025-02-26T17:27:11.209Z",
-      "notes": "my city",
+      "date": "2025-02-27T12:15:23.154Z",
+      "notes": "my house",
       "position": {
-        "lat": "31.353636941500987",
-        "lng": "35.309906831418346"
+        "lat": "31.962306241091827",
+        "lng": "34.80897579096245"
       },
-      "id": 98443199
+      "id": 98443198
     }
   ]
 }
