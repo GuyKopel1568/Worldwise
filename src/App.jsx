@@ -25,8 +25,19 @@ const PageNotFound = lazy(() => import("./pages/PageNotFound"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
 const Login = lazy(() => import("./pages/Login"));
 
+//efore lazy loading
 // dist/assets/index-0934ee27.css   45.93 kB │ gzip:  11.36 kB
 // dist/assets/index-8bce92fb.js   509.23 kB │ gzip: 148.64 kB
+
+//after lazy loading
+// dist/assets/Product.module-02d70b80.js    0.06 kB │ gzip:   0.07 kB
+// dist/assets/PageNotFound-8d8ea53c.js      0.15 kB │ gzip:   0.15 kB
+// dist/assets/Logo-c31809f1.js              0.21 kB │ gzip:   0.19 kB
+// dist/assets/PageNav-551980cb.js           0.54 kB │ gzip:   0.28 kB
+// dist/assets/Pricing-1b9c55c0.js           0.65 kB │ gzip:   0.42 kB
+// dist/assets/Homepage-77ec7883.js          0.67 kB │ gzip:   0.42 kB
+// dist/assets/AppLayout-ee600c69.js       157.00 kB │ gzip:  46.29 kB
+// dist/assets/index-f4d052d6.js           350.61 kB │ gzip: 101.85 kB
 
 function App() {
   return (
